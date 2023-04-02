@@ -1,0 +1,5 @@
+#secretfile filter=git-crypt diff=git-crypt
+#*.key filter=git-crypt diff=git-crypt
+
+*/**/PASSWD filter=git-crypt diff=git-crypt
+*/**/*.interne* filter=git-crypt diff=git-crypt
